@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 
@@ -257,9 +258,11 @@ export function InstallationSteps() {
                 >
                   {copiedItem === 'npm install equamistry' ? 'Copied!' : 'Install Now'}
                 </Button>
-                <Button variant="outline" className="border-slate-300 text-slate-700 hover:bg-slate-50 px-6 py-3 rounded-xl">
-                  View Examples
-                </Button>
+                <Link href="/examples">
+                  <Button variant="outline" className="border-slate-300 text-slate-700 hover:bg-slate-50 px-6 py-3 rounded-xl">
+                    View Examples
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
