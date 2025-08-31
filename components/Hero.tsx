@@ -58,7 +58,7 @@ export function Hero() {
                 </Button>
               </Link>
               
-              <a href="https://github.com/your-username/equamistry" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/themrsami/equamistry" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-4 text-lg rounded-2xl">
                   View Source
                 </Button>
