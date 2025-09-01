@@ -77,7 +77,7 @@ export default function ExamplesPage() {
           </div>
         )
       }
-    } catch (error) {
+    } catch {
       return <span className="text-lg font-mono text-red-500">{code}</span>
     }
   }
@@ -120,7 +120,7 @@ export default function ExamplesPage() {
 
       <div className="text-center mb-8">
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Each example demonstrates the power of Equamistry's rendering capabilities.
+          Each example demonstrates the power of Equamistry&apos;s rendering capabilities.
         </p>
       </div>
 
